@@ -20,11 +20,14 @@ nav .log {
 }
 
 nav .log img {
-    width: 21%;
+    width: 18%;
 
 }
 
-nav .log .item {}
+nav .log .item {
+    margin-right: 38px;
+
+}
 
 nav .log .item a {
     text-decoration: none;
@@ -41,7 +44,158 @@ nav .log .item a:hover {
 }
 
 nav .log .item a:nth-child(1) {
-        text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #FE8801;
     color: #FE8801;
 }
+
+#main {
+    margin-top: 90px;
+    margin-bottom: 68px;
+
+}
+
+#main .one {
+    display: flex;
+    justify-content: space-between;
+
+    width: 74%;
+    margin: 0px auto;
+    align-items: center;
+    margin-bottom: 127px;
+
+}
+
+#main .one .left {
+    width: 38%;
+
+
+}
+
+#main .one .left h1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 76px;
+    font-family: poppinsBold;
+
+}
+
+#main .one .left p {
+    font-size: 17px;
+    font-family: poppins;
+    margin-bottom: 18px;
+
+
+}
+
+#main .one .left button {
+    padding: 20px 39px;
+    background-color: #30d6c3;
+    border-radius: 11px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+#main .one .right {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#main .one .right img {}
+
+
+#main .service {
+
+    width: 74%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+#main .service h1 {
+    font-size: 53px;
+    margin-bottom: 23px;
+
+}
+
+#main .service p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+#main .service .images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#main .service .images .imgs {
+    position: relative;
+}
+
+#main .service .images .imgs img {}
+
+#main .service .images .imgs h2 {
+   position: absolute;
+  top: 320px;
+  color: white;
+  font-size: 20px;
+  left: 11px;
+  background-color: black;
+  padding: 6px 9px;
+
+}
+
+footer {
+
+    text-align: center;
+    background-color: #FFF4E6;
+}
+
+footer .last {}
+
+footer .last img {
+    margin-top: 78px;
+    margin-bottom: 23px;
+
+}
+
+footer .icons {
+
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-bottom: 50px;
+}
+
+footer .icons .icon1 {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 15px;
+
+}
+
+footer .icons .icon2 {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 12px 13px;
+
+
+}
+
+footer .icons .icon3 {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 12px;
+
+}
+
+
+footer .icons .icon a {}
+
+footer .icons .icon img {}
+
+footer .para {}
+
+footer .icons p {}
