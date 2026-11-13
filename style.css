@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #FFF4E6;
+
+
+}
+
+nav .log {
+    display: flex;
+    justify-content: space-between;
+
+    height: 180px;
+    width: 74%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+nav .log img {
+    width: 21%;
+
+}
+
+nav .log .item {}
+
+nav .log .item a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    display: inline;
+}
+
+
+nav .log .item a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+
+nav .log .item a:nth-child(1) {
+        text-decoration: underline;
+    text-decoration-color: #FE8801;
+    color: #FE8801;
+}
